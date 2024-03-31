@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class BunTest {
-    private Bun bun = new Bun("black bun", 100);
+    private final Bun bun = new Bun("black bun", 100);
     @Test
     public void checkGetBunName() {
         Assert.assertEquals("black bun", bun.getName());
